@@ -135,6 +135,11 @@ Standard .NET crypto providers plus:
 - Tab reordering for better workflow
 - Auto-refresh for batch log viewer
 - Removed auto-populate from clipboard feature
+- 9 hash algorithms
+- Batch processing
+- Dark mode theme
+- Basic verification
+
 
 ## Contributing
 
@@ -164,4 +169,5 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
