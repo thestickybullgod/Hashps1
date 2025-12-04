@@ -81,11 +81,12 @@ No installation or dependencies required - it's a single PowerShell script!
 2. Enter text or browse for file (drag-and-drop supported with green highlight feedback)
 3. Choose algorithm (SHA256 is default)
 4. For HMAC algorithms, enter key in the dedicated field
-5. Click **Generate Hash**
+6. Click **Generate Hash**
+   - Clicking **Generate Hash** after clicking **Log to file** creates Hash_GUI_Log.txt in the directory of Hashps1_v2.1.exe/Hashps1_v2.1.ps1
    - Cached hashes are returned instantly if file hasn't changed
    - Large files (>10GB) trigger a confirmation dialog
    - Locked files are detected and reported
-6. Optional: Compare with expected hash in the comparison field (color-coded results)
+8. Optional: Compare with expected hash in the comparison field (color-coded results)
 
 ### Batch Processing
 1. Navigate to **Batch** tab
@@ -228,6 +229,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
