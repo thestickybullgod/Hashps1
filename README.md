@@ -1,6 +1,6 @@
 SHA256 of Hashps1_v2.1.exe — 0bf4dac5cf80667c46caa9b7965d6b750d582251403e873034040603bb275bb1
 
-# hashps1 v2.0
+# hashps1 v2.1
 
 A professional Windows Forms-based PowerShell GUI application for cryptographic hash operations with batch processing, verification, and HMAC support.
 
@@ -107,7 +107,7 @@ Settings are automatically saved to `HashGUI_Config.json`:
 ## Technical Details
 
 ### Architecture
-- **Single-file application**: ~2400 lines of PowerShell
+- **Single-file application**: ~3400 lines of PowerShell
 - **Windows Forms GUI**: Native .NET Framework controls
 - **Background jobs**: Async processing via `Start-Job` with temp file communication
 - **Progress polling**: 250ms timer for smooth UI updates
@@ -125,7 +125,7 @@ Standard .NET crypto providers plus:
 
 ## Version History
 
-### v2.0 (Current)
+### v2.1 (Current)
 - Added HMAC algorithm support (HMACSHA256, HMACSHA512)
 - Independent algorithm selectors for Main, Batch, and Verify tabs
 - HMAC key fields with visual state management (white when enabled, gray when disabled)
@@ -171,6 +171,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
