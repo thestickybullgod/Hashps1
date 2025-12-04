@@ -162,7 +162,7 @@ Standard .NET crypto providers plus:
 
 ## Version History
 
-### v2.1 (Current - December 2024)
+### v2.1 (Current - December 2025)
 **Major Features:**
 - **Portable Mode**: Run with `-Portable` flag to disable config/cache file creation
 - **Hash Caching**: Automatic caching of computed hashes - instant results for unchanged files
@@ -223,11 +223,12 @@ This project is open source. Feel free to use, modify, and distribute.
 - PlanetArchives dark mode theme inspiration
 - .NET Framework cryptography providers
 - PowerShell community
-- Enhanced with assistance from GitHub Copilot (December 2024)
+- Enhanced with assistance from GitHub Copilot (December 2025)
 
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
