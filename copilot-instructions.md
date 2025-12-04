@@ -1,4 +1,4 @@
-# hashps1 - AI Coding Agent Instructions
+# Hashps1 - AI Coding Agent Instructions
 
 ## Project Overview
 **Hashps1** is a Windows Forms-based PowerShell GUI application for cryptographic hash operations. The app provides single-file hashing, batch processing, verification, and comparison features with a modern dark mode theme. Version 2.1 adds portable mode, hash caching, network path support, parallel processing, visual drag-drop feedback, and pre-flight file checks.
@@ -220,3 +220,4 @@ Auto-copy feature uses `[System.Windows.Forms.Clipboard]::SetText()` for seamles
 - Export to multiple formats (TXT/CSV, HashCheck, SFV)
 - Enhanced Recent Files with smart dual-button system
 - Comprehensive About tab documentation
+
