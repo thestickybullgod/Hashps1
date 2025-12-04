@@ -141,6 +141,7 @@ Settings are automatically saved to `HashGUI_Config.json` (unless using `-Portab
 - Recent files list
 - Parallel thread count
 - System tray and toast notification preferences
+- 'Clear Hash Cache' button
 
 Hash cache is stored in `HashCache.json` with automatic size limiting (1000 entries max).
 
@@ -234,6 +235,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
