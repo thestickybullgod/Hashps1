@@ -15,7 +15,7 @@ Implemented a configurable timeout mechanism using PowerShell background jobs th
 ## Key Changes
 
 ### 1. Enhanced `Test-NetworkPathAccessible` Function
-**File:** `Hashps1_v2.1.ps1` (lines 271-307)
+**File:** `CrunchHash_v2.6.ps1` (lines 271-307)
 
 **Changes:**
 - Added `$timeoutSeconds` parameter (defaults to configurable `$script:networkPathTimeout`)
@@ -63,7 +63,7 @@ function Test-NetworkPathAccessible {
 ```
 
 ### 2. Script-Level Timeout Variable
-**File:** `Hashps1_v2.1.ps1` (line 106)
+**File:** `CrunchHash_v2.6.ps1` (line 106)
 
 **Addition:**
 ```powershell
@@ -71,7 +71,7 @@ $script:networkPathTimeout = 5  # Default timeout in seconds for network path ch
 ```
 
 ### 3. Settings Tab UI Control
-**File:** `Hashps1_v2.1.ps1` (lines 1271-1286)
+**File:** `CrunchHash_v2.6.ps1` (lines 1271-1286)
 
 **Added:**
 - Label: "Network path timeout (seconds):"
@@ -103,7 +103,7 @@ $script:networkPathTimeout = 5  # Default timeout in seconds for network path ch
 
 ### 6. Documentation Updates
 
-**About Tab** (in `Hashps1_v2.1.ps1`):
+**About Tab** (in `CrunchHash_v2.6.ps1`):
 - Added: "Network path timeouts - 5-second timeout prevents hanging on unresponsive servers"
 - Updated batch operations description to include network path checks
 
@@ -185,10 +185,11 @@ Potential improvements for future versions:
 
 ## Files Modified
 
-1. `Hashps1_v2.1.ps1` - Main application file
+1. `CrunchHash_v2.6.ps1` - Main application file
 2. `README.md` - User documentation
 3. `copilot-instructions.md` - Developer documentation
 
 ## Conclusion
 
-This feature significantly improves the robustness and user experience of Hashps1 when working with network paths. Users no longer experience indefinite hangs, and the application provides clear feedback about network connectivity issues. The configurable timeout allows users to adapt the behavior to their specific network environment.
+This feature significantly improves the robustness and user experience of CrunchHash when working with network paths. Users no longer experience indefinite hangs, and the application provides clear feedback about network connectivity issues. The configurable timeout allows users to adapt the behavior to their specific network environment.
+
