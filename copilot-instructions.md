@@ -1,12 +1,12 @@
-# Hashps1 - AI Coding Agent Instructions
+# CrunchHash - AI Coding Agent Instructions
 
 ## Project Overview
-**Hashps1** is a Windows Forms-based PowerShell GUI application for cryptographic hash operations. The app provides single-file hashing, batch processing, verification, and comparison features with a modern dark mode theme. Version 2.1 adds portable mode, hash caching, network path support, parallel processing, visual drag-drop feedback, and pre-flight file checks.
+**CrunchHash** is a Windows Forms-based PowerShell GUI application for cryptographic hash operations. The app provides single-file hashing, batch processing, verification, and comparison features with a modern dark mode theme. Version 2.1 adds portable mode, hash caching, network path support, parallel processing, visual drag-drop feedback, and pre-flight file checks.
 
 ## Architecture & Components
 
 ### Core Application Structure
-- **Single-file monolith**: All code in `Hashps1_v2.1.ps1` (~3700 lines)
+- **Single-file monolith**: All code in `CrunchHash_v2.6.ps1` (~3700 lines)
 - **Windows Forms GUI**: Uses `System.Windows.Forms` and `System.Drawing` assemblies
 - **Async processing**: PowerShell background jobs for file hashing to prevent UI freezing
 - **Parallel processing**: Configurable thread count (1-8) for batch operations with real-time result streaming
@@ -90,9 +90,9 @@ Saves: algorithm selection, dark mode state, font size, hash format, auto-copy p
 ## Development Workflows
 
 ### Testing UI Changes
-1. Edit `Hashps1_v2.1.ps1`
-2. Run: `pwsh -File "Hashps1_v2.1.ps1"` (normal mode with config/cache)
-3. Run: `pwsh -File "Hashps1_v2.1.ps1" -Portable` (portable mode - no persistence)
+1. Edit `CrunchHash_v2.6.ps1`
+2. Run: `pwsh -File "CrunchHash_v2.6.ps1"` (normal mode with config/cache)
+3. Run: `pwsh -File "CrunchHash_v2.6.ps1" -Portable` (portable mode - no persistence)
 4. No build step required (PowerShell script)
 
 ### Adding New Algorithms
@@ -187,7 +187,7 @@ Auto-copy feature uses `[System.Windows.Forms.Clipboard]::SetText()` for seamles
 13. **Export format parsing**: Strip [CACHED] markers when exporting for verify compatibility
 
 ## Key Files Reference
-- **Main script**: `Hashps1_v2.1.ps1` (entire application)
+- **Main script**: `CrunchHash_v2.6.ps1` (entire application)
 - **Config**: `HashGUI_Config.json` (user preferences - disabled in portable mode)
 - **Cache**: `HashCache.json` (computed hash cache - disabled in portable mode)
 - **Logs**: `Hash_GUI_Log.txt`, `Batch_GUI_Log.txt` (operation history)
@@ -214,7 +214,7 @@ Auto-copy feature uses `[System.Windows.Forms.Clipboard]::SetText()` for seamles
 ## Version & Author
 - **Current version**: 2.1 (December 2025)
 - **Author**: Dustin W. Deen
-- **GitHub**: https://github.com/thestickybullgod/hashps1
+- **GitHub**: https://github.com/thestickybullgod/crunchhash
 - **Enhanced with**: GitHub Copilot assistance
 
 ## New in v2.1
@@ -233,5 +233,6 @@ Auto-copy feature uses `[System.Windows.Forms.Clipboard]::SetText()` for seamles
 - Import Batch Log button in Verify tab for seamless export-import workflow
 - Horizontal scrolling with dynamic extent calculation (font-size aware)
 - Verify tab improvements: real-time results, import batch logs, progress bar reset on clear
+
 
 
