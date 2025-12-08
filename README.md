@@ -1,6 +1,6 @@
-SHA256 of CrunchHash_v2.7.exe — b0d4b128f70bcca3c972cd6ae86df3bb5961224466ffc6b39c927a572a27aa52
+SHA256 of CrunchHash_v2.7.exe — 34b3aa4a9bec19454f118142f9a9ca8666164fecc6357b58dee7e38fedc2dcb8
 
-SHA256 of CrunchHash_v2.7.ps1 — 36aaf03b78072c90f0c64c2ec400e8dfc304711d5fe7533e3a345e3e05dba46a
+SHA256 of CrunchHash_v2.7.ps1 — ac2191b580023649d8bc73a0049b8d5f8a93444e166ff05381a1976b606792d9
 
 # CrunchHash 2.7
 
@@ -254,6 +254,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
