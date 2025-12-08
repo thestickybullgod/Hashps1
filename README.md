@@ -24,6 +24,7 @@ A professional Windows Forms-based PowerShell GUI application for cryptographic 
 - **Network Path Timeouts**: Configurable timeout (1-30s, default 5s) prevents hanging on unresponsive servers
 - **Portable Mode**: Run with `-Portable` flag to disable config/cache persistence
 - **Pre-flight Checks**: File locking detection, large file warnings (>10GB), and network path accessibility
+- **Duplicate Finder**: Search any specified directory for duplicate files based on determined checksums. Includes recursive searching, hash algorithm selection and "Filter by extensions".
 
 ### Output Options
 - **Multiple Formats**: Lowercase (default), UPPERCASE, hex with 0x prefix, Base64 encoded
@@ -252,6 +253,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
