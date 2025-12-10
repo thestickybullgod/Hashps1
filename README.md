@@ -225,7 +225,7 @@ Responsive form closing with user confirmation
 - Separate logs for single and batch operations
 - Auto-refresh for log viewers
 
-### v2.0
+### BETA v2.0
 - 9 hash algorithms
 - Batch processing
 - Dark mode theme
@@ -261,6 +261,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
