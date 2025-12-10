@@ -1,5 +1,3 @@
-SHA256 of CrunchHash_BETA.exe — 50310af75616d0375beeb3021d7a84ecf5993fc66d9ee31652636b7f2a97781c
-
 SHA256 of CrunchHash_BETA.ps1 — 8d376dbfec655500b0248498a3b04e0319a393211069ef155d8f55ef28a8e63e
 
 # CrunchHash BETA
@@ -263,6 +261,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
