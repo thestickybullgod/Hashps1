@@ -1,6 +1,6 @@
-SHA256 of CrunchHash_vBETA.exe — 50310af75616d0375beeb3021d7a84ecf5993fc66d9ee31652636b7f2a97781c
+SHA256 of CrunchHash_BETA.exe — 50310af75616d0375beeb3021d7a84ecf5993fc66d9ee31652636b7f2a97781c
 
-SHA256 of CrunchHash_vBETA.ps1 — 8d376dbfec655500b0248498a3b04e0319a393211069ef155d8f55ef28a8e63e
+SHA256 of CrunchHash_BETA.ps1 — 8d376dbfec655500b0248498a3b04e0319a393211069ef155d8f55ef28a8e63e
 
 # CrunchHash BETA
 
@@ -60,17 +60,17 @@ Bulk hash verification from tab/space delimited format with MATCH/MISMATCH repor
 - .NET Framework 4.8 (included in Windows 10/11)
 
 ### Quick Start
-1. Download `CrunchHash_vBETA.ps1`
+1. Download `CrunchHash_BETA.ps1`
 2. Right-click → **Run with PowerShell**
    
    *Or from PowerShell:*
    ```powershell
-   powershell -ExecutionPolicy Bypass -File "CrunchHash_vBETA.ps1"
+   powershell -ExecutionPolicy Bypass -File "CrunchHash_BETA.ps1"
    ```
    
    *Portable mode (no config/cache files):*
    ```powershell
-   powershell -ExecutionPolicy Bypass -File "CrunchHash_vBETA.ps1" -Portable
+   powershell -ExecutionPolicy Bypass -File "CrunchHash_BETA.ps1" -Portable
    ```
 
 No installation or dependencies required - it's a single PowerShell script!
@@ -83,7 +83,7 @@ No installation or dependencies required - it's a single PowerShell script!
 3. Choose algorithm (SHA256 is default)
 4. For HMAC algorithms, enter key in the dedicated field
 6. Click **Generate Hash**
-   - Clicking **Generate Hash** after clicking **Log to file** creates "Hash_GUI_Log.txt" in the directory of CrunchHash_vBETA.exe/CrunchHash_vBETA.ps1
+   - Clicking **Generate Hash** after clicking **Log to file** creates "Hash_GUI_Log.txt" in the directory of CrunchHash_BETA.exe/CrunchHash_BETA.ps1
    - Cached hashes are returned instantly if file hasn't changed
    - Large files (>10GB) trigger a confirmation dialog
    - Locked files are detected and reported
@@ -95,7 +95,7 @@ No installation or dependencies required - it's a single PowerShell script!
 3. Select algorithm and output format
 4. Configure parallel threads (1-8) in Settings tab for faster processing
 5. Click **Hash All** to process
-   - Clicking **Hash All** after clicking **Log to file** creates "Batch_GUI_Log.txt" in the directory of CrunchHash_vBETA.exe/CrunchHash_vBETA.ps1
+   - Clicking **Hash All** after clicking **Log to file** creates "Batch_GUI_Log.txt" in the directory of CrunchHash_BETA.exe/CrunchHash_BETA.ps1
    - Pre-flight checks detect locked and large files
    - Results stream in real-time as each file completes
    - Cached hashes speed up processing of unchanged files (marked with [CACHED])
@@ -263,6 +263,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
