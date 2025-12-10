@@ -1,6 +1,6 @@
 SHA256 of CrunchHash_BETA.ps1 — fbd0fa65cda4a4e9275dadaa7ba00c5c097818568e050290c4b5e7a28011a689
 
-# CrunchHash BETA
+# CrunchHash BETA — Portable
 
 A professional Windows Forms-based PowerShell GUI application for cryptographic hash operations with batch processing, verification, and HMAC support.
 
@@ -261,6 +261,7 @@ This project is open source. Feel free to use, modify, and distribute.
 ---
 
 **Note**: This is a Windows-only application due to Windows Forms dependency. For cross-platform hash utilities, consider command-line alternatives like `sha256sum` or `certutil`.
+
 
 
 
